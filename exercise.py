@@ -10,8 +10,7 @@ def prisoners_dilemma():
 		strategy_player_a = input("Enter 'Defect' or 'Cooperate' ")
 		strategy_player_b = input("Enter 'Defect' or Cooperate") 
 		if strategy_player_a == 'Defect' and strategy_player_b == 'Cooperate':
-			print("A: -20, B: 0")
-		#rest of the if statements 
+			print("A: -20, B: 0") 
 
 		if strategy_player_a == 'Cooperate' and strategy_player_b == 'Defect'
 			print("A: 0, B: -20")
